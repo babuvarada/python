@@ -1,0 +1,10 @@
+def removeChar(s, c):
+    counts = s.count(c)
+    s = list(s)
+    while counts:
+        s.remove(c)
+        counts = counts-1
+    s = ''.join(s)
+    print(s)
+s = "hello world"
+removeChar(s, 'l')
