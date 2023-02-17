@@ -1,0 +1,4 @@
+pi=3.14
+r=int(input("Enter the string"))
+area=3.14*r*r
+print(area)
